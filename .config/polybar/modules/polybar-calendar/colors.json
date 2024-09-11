@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/freyja/Pictures/Pictures/Wallpapers/0188.jpg",
+    "alpha": "255",
+    "special": {
+        "background": "#000000",
+        "foreground": "#44475a",
+        "cursor": "#d5d9d3"
+    },
+    "colors": {
+        "color0": "#1E1F29",
+        "color1": "#C678DD",
+        "color2": "#648670",
+        "color3": "#51AFEF",
+        "color4": "#C3AE34",
+        "color5": "#256A36",
+        "color6": "#6D8F8A",
+        "color7": "#dddddd",
+        "color8": "#959793",
+        "color9": "#C678DD",
+        "color10": "#648670",
+        "color11": "#51AFEF",
+        "color12": "#C3AE34",
+        "color13": "#407787",
+        "color14": "#6D8F8A",
+        "color15": "#d5d9d3"
+    }
+}
