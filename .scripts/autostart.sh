@@ -5,5 +5,6 @@ polybar &
 nm-applet &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 cbatticon -l 20 -r 5 &
-sleep 1 && volumeicon &
 dunst &
+sleep 5
+volumeicon &

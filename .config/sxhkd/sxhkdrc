@@ -153,24 +153,22 @@ Shift_L + Meta_L
 
 ### Function Keys ###
 
-# Lower Volume
-#XF86AudioLowerVolume
-#	pactl set-sink-volume 0 -5%
+# mute
+XF86AudioMute
+	/home/freyja/.scripts/volume.sh mute
 
-# Raise Volume
-#XF86AudioRaiseVolume
-#	pactl set-sink-volume 0 +5%
+# volume up
+XF86AudioRaiseVolume
+	/home/freyja/.scripts/volume.sh up
 
-# Mute Volume
-#XF86AudioMute
-#	pactl set-sink-mute 0 toggle
+# volume down
+XF86AudioLowerVolume
+	/home/freyja/.scripts/volume.sh down
 
-# Brightness Down
-XF86MonBrightnessDown
-	brillo -q -U 3
-
-# Brightness Up
+# brightness up
 XF86MonBrightnessUp
- 	brillo -q -A 3
+	/home/freyja/.scripts/brightness.sh up
 
-
+# brightness down
+XF86MonBrightnessDown
+	/home/freyja/.scripts/brightness.sh down
