@@ -19,21 +19,8 @@ bspc rule -a pavucontrol state=floating
 bspc rule -a Nl.hjdskes.gcolor3 state=floating
 
 #autostart
-killall picom
-sleep 0.1 && picom --daemon & #compositor
-nitrogen --restore & #wallpaper setter
-killall polybar
-sleep 0.1 && polybar & #status bar
-#killall blueman-applet
-#sleep 0.1 && blueman-applet & #bluetooth-management
-killall nm-applet
-sleep 0.7 && nm-applet & #network-management
-killall polkit-gnome-authentication-agent-1
-sleep 0.1 && /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & #polkit-1 agent
-killall cbatticon
-sleep 0.8 && cbatticon -n -u 60 & #battery systray icon
-killall volumeicon
-sleep 5 && volumeicon & #volume systray icon
+/home/freyja/.scripts/killall.sh
+/home/freyja/.scripts/autostart.sh
 
 #configs
 xinput set-prop "SYNA2BA6:00 06CB:CE2D Touchpad" "libinput Tapping Enabled" 1
