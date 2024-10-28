@@ -24,5 +24,4 @@ bspc rule -a Nl.hjdskes.gcolor3 state=floating
 
 #configs
 xinput set-prop "SYNA2BA6:00 06CB:CE2D Touchpad" "libinput Tapping Enabled" 1
-#xinput set-prop 8 "libinput Accel Speed" -0.5 #Mouse at home
 xinput set-prop "2.4G Mouse" "libinput Accel Speed" -0.7 #wireless mouse
