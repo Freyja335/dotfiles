@@ -1,5 +1,5 @@
 #!/bin/bash
-picom --daemon &
+sleep 0.1 && picom --daemon &
 nitrogen --restore &
 polybar &
 nm-applet &
