@@ -17,6 +17,7 @@ bspc config normal_border_color   \#44475a
 bspc rule -a zoom state=floating
 bspc rule -a pavucontrol state=floating
 bspc rule -a Nl.hjdskes.gcolor3 state=floating
+bspc rule -a Gnome-screenshot state=floating
 
 #autostart
 /home/freyja/.scripts/killall.sh
