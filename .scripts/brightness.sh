@@ -6,7 +6,7 @@ currentbrightness=$(brightnessctl -m | awk -F, '{print substr($4, 0, length($4)-
 
 send_notification() {
 	brightness=$(brightnessctl -m | awk -F, '{print substr($4, 0, length($4)-1)}')
-	dunstify -a "Backlight" -u low -r 9994 -h int:value:"$brightness" -i "brightness" "Brightness" "Currently at $brightness%" -t 1000
+	dunstify -a "Backlight" -u low -r 9994 -h int:value:"$brightness" -i "brightness-symbolic" "Brightness" "Currently at $brightness%" -t 1000
 }
 
 case $1 in

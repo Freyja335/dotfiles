@@ -26,3 +26,5 @@ bspc rule -a Gnome-screenshot state=floating
 #configs
 xinput set-prop "SYNA2BA6:00 06CB:CE2D Touchpad" "libinput Tapping Enabled" 1
 xinput set-prop "2.4G Mouse" "libinput Accel Speed" -0.7 #wireless mouse
+xset s off
+xset s -dpms

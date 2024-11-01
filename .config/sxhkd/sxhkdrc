@@ -148,7 +148,7 @@ super + Print
 	gnome-screenshot -i
 
 #Change input language
-Shift_L + Meta_L
+super + Shift_L + Meta_L
     setxkbmap -query | grep -q 'gr' && setxkbmap us || setxkbmap gr,us
 
 ### Function Keys ###
