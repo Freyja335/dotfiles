@@ -154,21 +154,21 @@ super + Shift_L + Meta_L
 ### Function Keys ###
 
 # mute
-XF86AudioMute
+super + F1
 	/home/freyja/.scripts/volume.sh mute
 
 # volume up
-XF86AudioRaiseVolume
+super + F3
 	/home/freyja/.scripts/volume.sh up
 
 # volume down
-XF86AudioLowerVolume
+super + F2
 	/home/freyja/.scripts/volume.sh down
 
 # brightness up
-XF86MonBrightnessUp
+super + F6
 	/home/freyja/.scripts/brightness.sh up
 
 # brightness down
-XF86MonBrightnessDown
+super + F5
 	/home/freyja/.scripts/brightness.sh down
