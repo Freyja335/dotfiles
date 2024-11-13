@@ -1,0 +1,9 @@
+include /usr/share/nano-syntax-highlighting/*.nanorc
+set linenumbers
+set numbercolor grey
+set tabsize 1
+set titlecolor white
+set softwrap
+set minibar
+set keycolor white
+set functioncolor grey
