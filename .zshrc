@@ -85,7 +85,7 @@ alias free='free -m'                      # show sizes in MB
 #alias nano='nano -m'
 alias more=less
 #alias brightness='sudo nano /sys/class/backlight/amdgpu_bl1/brightness'
-alias neofetch='fastfetch'
+alias neofetch='fastfetch --config neofetch.jsonc --logo arch'
 alias cat='bat --color=always'
 alias bullyorphans='sudo pacman -Qdtq | sudo pacman -Rns -'
 
