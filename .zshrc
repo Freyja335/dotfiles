@@ -29,10 +29,6 @@ zinit light Aloxaf/fzf-tab
 ## Add in snippets ##
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
-zinit snippet OMZP::archlinux
-#zinit snippet OMZP::aws
-#zinit snippet OMZP::kubectl
-#zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
 
 ## Load completions ##
@@ -85,16 +81,12 @@ alias free='free -m'                      # show sizes in MB
 #alias nano='nano -m'
 alias more=less
 #alias brightness='sudo nano /sys/class/backlight/amdgpu_bl1/brightness'
-alias neofetch='fastfetch --config neofetch.jsonc --logo arch'
+alias neofetch='fastfetch --config neofetch.jsonc'
 alias cat='bat --color=always'
-alias bullyorphans='sudo pacman -Qdtq | sudo pacman -Rns -'
 
 ## Shell integrations ##
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-
-## Environment Variables ##
-export EDITOR=nano;
 
 ## Pixel Art ##
 colorscript random
